@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        padding: 5px;
+        background-color:orange;
+        position: relative;
+        height: 200vh;
+    }
+    .firstchild{
+        background-color: aqua;
+        position: static;
+    }
+    .secondchild{
+        background-color: blueviolet;
+        position: fixed;
+        top: 0;
+        right: 20px;
+    }
+    .thirdchild{
+        background-color: cadetblue;
+    }
+</style>
+<body>
+    <div class="parent">
+        parent
+       <div class="firstchild"> this is child one</div>
+       <div class="secondchild">this is second child</div>
+       <div class="thirdchild">this is third child</div>
+    </div>
+</body>
+</html>
